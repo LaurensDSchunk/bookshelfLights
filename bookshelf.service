@@ -1,0 +1,12 @@
+[Service]
+WorkingDirectory=/home/rpi1/bookshelf
+ExecStart=node /home/rpi1/bookshelf/bookshelf.js
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=bookshelf
+User=root
+Group=root
+Environment=NODE_ENV=production
+[Install]
+WantedBy=multi-user.target
