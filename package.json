@@ -1,0 +1,20 @@
+{
+  "name": "bookshelflights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurensDSchunk/bookshelfLights.git"
+  },
+  "author": "Laurens Schunk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaurensDSchunk/bookshelfLights/issues"
+  },
+  "homepage": "https://github.com/LaurensDSchunk/bookshelfLights#readme"
+}
